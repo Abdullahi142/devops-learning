@@ -12,7 +12,7 @@
   This applies read & write permissions to **user & group**, and write-only to **others** on `example.txt`.
 
 ---
-## ** Essential Linux Commands**
+##  Essential Linux Commands
 
 ### ** Navigation & Directory Management**
 - `pwd` → **Prints working directory** (shows current location).
@@ -37,7 +37,7 @@
   ```
 
 ---
-### ** File & Permission Management**
+###  File & Permission Management
 - `chmod` → **Changes file permissions**
   ```sh
   chmod 754 file.txt   # Owner: rwx, Group: r, Others: r
@@ -52,7 +52,7 @@
   ```
 
 ---
-### ** Viewing & Editing Files**
+###  Viewing & Editing Files
 - `cat` → **Displays file content**
   ```sh
   cat file.txt
@@ -70,7 +70,7 @@
 - `printenv` → **Displays environment variables**
 
 ---
-### ** Advanced Command Usage**
+###  Advanced Command Usage
 - `|` (Pipeline) → **Passes output of one command as input to another**
   ```sh
   ls -l | grep "file.txt"
@@ -86,7 +86,7 @@
   ```
 
 ---
-### ** User Management & Privileges**
+###  User Management & Privileges
 - `man` → **Displays manual for a command**
   ```sh
   man ls
@@ -102,7 +102,7 @@
 - `sudo su` → **Switches to root user (dangerous if misused)**
 
 ---
-## **⌨️ Useful Shortcuts**
+##  Useful Shortcuts
 - **Tab** → Auto-completes commands & filenames.
 - `CTRL + L` → Clears terminal screen.
 - `CTRL + D` → Ends command execution.
@@ -113,12 +113,12 @@
 - `unalias` → Removes a custom alias.
 
 ---
-## ** Understanding File Permissions**
+##  Understanding File Permissions
 Example of `ls -l` output:
 ```sh
 drwxrwxr-x 2 ubuntu ubuntu 4096 July 26 22:03 MyProject
 ```
-### **Breakdown:**
+### Breakdown:
 | Field | Meaning |
 |--------|-----------------|
 
@@ -132,7 +132,7 @@ drwxrwxr-x 2 ubuntu ubuntu 4096 July 26 22:03 MyProject
 | `MyProject` | File/Directory name |
 
 ---
-## ** Final Notes**
+##  Final Notes
 - Adding `.` before a filename makes it hidden.
   ```sh
   mkdir .hidden_folder
