@@ -1,6 +1,6 @@
 # Linux Notes
 
-## ** Importance of Command Syntax**
+##  Importance of Command Syntax
 - Writing commands **exactly** as shown is crucial.
 - Capitalization **matters**—changing it may run a completely different command.
 - When assigning permissions to **user, group, and others**, you need to specify roles clearly.
